@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 20px 0;
+}
+.clr{
+    clear: both;
+}
+
+#header{
+    width: 100%;
+    background-color: #2D2D2C;
+    color: #fff;
+    position: fixed;
+    
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    padding-top: 20px;
+}
+
+.navbar h1 a{
+    
+    color: chocolate;
+    font-size: 40px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    
+    
+    /* justify-content: space-between; */
+}
+.navbar ul li{
+    display: inline-block;
+    
+    
+}
+
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+    padding: 34px 18px;
+    transition: 1s;
+}
+
+
+.navbar ul li a:hover{
+    color: chocolate;
+    background-color: rgb(66, 65, 65);
+    border-radius: 10px;
+}
+.present {
+    color: chocolate !important;
+    background-color: rgb(66, 65, 65);
+    border-radius: 10px;
+    
+}
+.showcase{
+    background-image: url(../img/hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.in-showcase{
+    text-align: center;
+    padding: 140px 0;
+    color: rgb(216, 208, 208);
+}
+.in-showcase h1{
+    font-size: 49px;
+}
+
+.in-showcase span, .spn{
+    color: chocolate;
+}
+.in-showcase button{
+    padding: 15px 20px ;
+    background-color: #2d2d2cb9;
+    border-radius: 10px;
+    border-style: none;
+    transition: 1s;
+}
+.in-showcase button:hover{
+    background-color: rgba(210, 105, 30, 0.795);
+}
+.in-showcase button a{
+    color: #fff;
+    
+}
+.mainbar-left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-image: url(../img/zal.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+.mainbar-left img{
+    width: 675px;
+    height: 270px;
+}
+.mainbar-right{
+   float: right;
+    width: 50%;
+    background-color: #2D2D2C;
+    color: #fff;
+    text-align: center;
+    padding: 42px;
+
+}
+.mainbar-right button{
+    background-color: rgb(219, 217, 217);
+    color: rgb(32, 31, 31);
+    border-style: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+.mainbar-right button:hover{
+    background-color: rgba(210, 105, 30, 0.829);
+    color: #fff;
+}
+
+.box-bars{
+    display: flex;
+    justify-content: space-between;
+}
+.box-bars .box{
+    width: 33.3%;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    background-color: rgb(207, 203, 198);
+}
+
+.box-bars .box:nth-child(2){
+    background-color: chocolate;
+}
+.box-bars .box h3{
+    margin-top: 20px;
+}
+#footer{
+    background-color: #2D2D2C;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+#mainbar-ab{
+    background-color: rgb(230, 230, 230);
+   padding-top: 100px;
+   
+} 
+.mainbar-ab-left{
+    width: 55%;
+    display: inline-block;
+}
+.mainbar-ab-right{
+    
+    width: 40%;
+    display: inline-block;
+}
+.mainbar-ab-right img{
+   
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+.showcase-ab{
+    
+    padding: 50px 0;
+    background-image: url(../img/party.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase-ab h1{
+    padding: 50px 0;
+   
+    text-align: center;
+    color: #fff;
+}
+
+.showcase-ab .box1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(210, 105, 30, 0.568);
+    padding: 20px ;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.showcase-ab .box1 img{
+    border-radius: 50%;
+}
+.showcase-ab .box1 p{
+    padding-left: 20px;
+}
+
+.navbar-con{
+    padding: 100px 0 30px 0;
+    background-color: #c0c0be;
+}
+.navbar-con label,input{
+    display: block;
+    ;
+}
+.navbar-con input,textarea{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.navbar-con .bttn{
+    background-color: rgb(219, 217, 217);
+    color: rgb(32, 31, 31);
+    border-style: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navbar-con .bttn:hover{
+    background-color: rgba(210, 105, 30, 0.829);
+    color: #fff;
+
+}
+
+
+
